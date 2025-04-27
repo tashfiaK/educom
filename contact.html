@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- title of the website -->
+    <title>Edu.com</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="container">
+        <!-- logo -->
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">Edu.<span>com</span> </a>
+          </div>
+          <!-- page navigation links start -->
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="career.html">Career Services</a></li>
+              <li><a href="support.html">Support</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- banner start -->
+    <div class="contact-banner">
+      <div class="container">
+        <div class="c-b-content">
+          <p class="cus-weight">Need Advice?</p>
+          <h1>Get in Touch With Us</h1>
+          <p>
+            We are available 24/7 to solve your queries and help you get success
+            in your career.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- banner end -->
+    <div class="contact-desc">
+      <div class="banner">
+        <div class="desc-content">
+          <h2>Supporting You Every Step of the Way</h2>
+          <div class="hr-line hr-mb"></div>
+          <p>
+            At Edu.com, we believe real-world career readiness requires more
+            than just great coursework—it takes personalized support, expert
+            guidance, and an entire team dedicated to your success. Whether
+            you’re just exploring your options or preparing for job interviews,
+            we’re here to help you every step of the way.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- form start -->
+    <div class="c-form">
+      <main>
+        <!-- Survey form start -->
+        <h2>Get in touch with us now</h2>
+        <form name="order" method="post" action="demo.php" onsubmit="return validateform()">
+          <label for="fname">Full Name:</label>
+          <input type="text" name="fname" id="fname" required /> <br />
+          <label for="email">Email Address:</label>
+          <input type="email" name="email" id="email" required /> <br />
+          <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone" id="phone" required /> <br />
+
+          <fieldset>
+            <legend>Which Bootcamp course are you interested in?</legend>
+            <input
+              type="radio"
+              name="bootcamp"
+              id="front-end"
+              value="front-end"
+            />
+            Front-End Development <br />
+            <input
+              type="radio"
+              name="bootcamp"
+              id="full-stack"
+              value="full-stack"
+            />
+            Full-Stack Engineer <br />
+            <input type="radio" name="bootcamp" id="cybersec" value="cyberse" />
+            CyberSecurity <br />
+            <input
+              type="radio"
+              name="bootcamp"
+              id="bus-mang"
+              value="bus-mang"
+            />
+            Business Management <br />
+            <input
+              type="radio"
+              name="bootcamp"
+              id="data-anl"
+              value="data-anl"
+            />
+            Data Analytics<br />
+            <input
+              type="radio"
+              name="bootcamp"
+              id="micr-exc"
+              value="micr-exc"
+            />
+            Microsoft Excel <br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Your Experience Level:</legend>
+            <input
+              type="radio"
+              name="experience"
+              id="beginner"
+              value="beginner"
+            />
+            Weekly <br />
+            <input
+              type="radio"
+              name="experience"
+              id="intermediate"
+              value="intermediate"
+            />
+            A few CDs each year <br />
+            <input
+              type="radio"
+              name="experience"
+              id="advanced"
+              value="advanced"
+            />
+            Monthly <br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Preferred Mode of Learning:</legend>
+            <input type="radio" name="purchase" id="online" value="online" />
+            Online <br />
+            <input
+              type="radio"
+              name="purchase"
+              id="in-person"
+              value="in-person"
+            />
+            In Person <br />
+            <input type="radio" name="purchase" id="hybrid" value="hybrid" />
+            Hybrid <br />
+          </fieldset>
+
+          <fieldset>
+            <legend>How did you hear about us?</legend>
+            <input type="radio" name="hear" id="google" value="google" /> Google
+            Search <br />
+            <input type="radio" name="hear" id="s-media" value="s-media" />
+            Social media <br />
+            <input type="radio" name="hear" id="friend" value="friend" /> Friend
+            <br />
+            <input type="radio" name="hear" id="other" value="other" /> Other
+            <br />
+          </fieldset>
+
+          <label for="comment"></label>Write your message: <br />
+          <textarea name="response" id="response" cols="60" rows="3"></textarea>
+          <br />
+          <div class="f-btn">
+            <input type="Submit" class="button"/>
+          </div>
+        </form>
+      </main>
+    </div>
+    <!-- form end -->
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <!-- 1st row -->
+        <div id="f-details">
+          <!-- single start -->
+          <div class="single-detail">
+            <div class="f-contact">
+              <div class="f-logo">
+                <a href="index.html">Edu.<span>com</span></a>
+              </div>
+              <p>
+                92/A South Avenue, Boston, 95342 <br />
+                Massachusetts, <br />
+                United States
+              </p>
+              <a class="contact-link" href="mailto:edu@contact.com">edu@contact.com</a>
+            </div>
+          </div>
+          <!-- single start -->
+          <div class="single-detail">
+            <h3>Get In Touch</h3>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="career.html">Career Services</a></li>
+              <li><a href="#">Alumni Network</a></li>
+            </ul>
+          </div>
+          <!-- single start -->
+          <div class="single-detail">
+            <h3>Get Support</h3>
+            <ul>
+              <li><a href="#">Freequently Asked Questions</a></li>
+              <li><a href="#">Live Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright © 2025 <a href="#">Edu.com</a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script>
+      function validateform() {
+        var fname = document.getElementById("fname");
+        fname.value = fname.value.charAt(0).toUpperCase() + fname.value.slice(1).toLowerCase();
+        return true;
+      }
+    </script>
+
+  </body>
+</html>

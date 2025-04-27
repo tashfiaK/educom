@@ -1,0 +1,9 @@
+#FA5252 - light red
+
+      document.querySelector(".button").addEventListener("click", function (e) {
+        let fname = document.getElementById("fname");
+    
+        if (fname.value.length > 0) {
+          fname.value = fname.value.charAt(0).toUpperCase() + fname.value.slice(1).toLowerCase();
+        }
+      });
